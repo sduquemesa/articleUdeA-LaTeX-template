@@ -1,0 +1,24 @@
+Here you can find an alternative LaTeX template for revcolfis template.
+
+      Usage:
+
+You can use all the revtex4 advantages on the documents generated with \documentclass[articleUdeA]
+
+To set the title in English and Spanish use:
+       	    \titleEsEn{Español}{English}
+
+To set the article abstracts use:
+       	   \begin{resumen}
+		{Aqui el resumén}
+		{Here the abstract}
+	   \end{resumen} 
+if you dont want an abstrac, leave the space empty:
+       	   \begin{resumen}
+		{Aqui el resumén}
+		{}
+	   \end{resumen}
+
+IMPORTANT: Instead of using \maketitle, use \mtitle
+
+Any report of bug, comments and suggestion send to
+    	   sduquemesa at gmail.com
